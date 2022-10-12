@@ -1,0 +1,47 @@
+module.exports = {
+    mainScreen: {
+        marginTop: 51,
+        display: 'flex',
+        flexDirection: 'column',
+        backgroundColor: 'center',
+        width: '100%',
+        height: '100%',
+    },
+    mainScreen_display: {
+        elevation: 10,
+        width: '95%',
+        backgroundColor: 'white',
+        borderRadius: 10,
+        display: 'flex',
+        marginBottom: 10,
+        padding: 10,
+    },
+    mainScreen_display_text: {
+        fontSize: 50,
+        textAlign: 'right',
+    },
+    mainScreen_keyPad: {
+        width: '100%',
+        height: '70%',
+        display: 'flex',
+        //flexDirection: 'row',
+    },
+    mainScreen_keyPad_row: {
+        display: 'flex',
+        flexDirection: 'row',
+        backgroundColor: 'white',
+        width: '100%',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        padding: 10,
+    },
+    mainScreen_keyPad_button1: {
+        width: 90,
+        height: 90,
+        backgroundColor: 'white',
+        elevation: 10,
+        overflow: 'hidden',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+}
